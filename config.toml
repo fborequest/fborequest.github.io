@@ -1,7 +1,7 @@
 title = "FBO Request"
 baseURL = "https://fborequest.com"
 languageCode = "en-us"
-theme = "ananke"
+theme = ["ananke", "matomo"]
 publishdir = "docs"
 
 DefaultContentLanguage = "en"
@@ -34,3 +34,7 @@ enableRobotsTXT = true
   background_color_class = "bg-black"
   featured_image = "/images/splash.jpg"
   recent_posts_number = 2
+
+[params.matomo]
+url = "https://stats.fborequest.com"
+id = 2
