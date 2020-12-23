@@ -3,15 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://fborequest.com/categories/</loc>
+    <loc>https://fborequest.com/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://fborequest.com/</loc>
+    <loc>https://fborequest.com/page/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fborequest.com/categories/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://fborequest.com/tags/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
 </urlset>
