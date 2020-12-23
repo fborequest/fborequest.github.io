@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FBO Request</title>
-    <link>https://fborequest.com/page/</link>
+    <link>https://fborequest.github.io/page/</link>
     <description>Recent content on FBO Request</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://fborequest.com/page/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://fborequest.github.io/page/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

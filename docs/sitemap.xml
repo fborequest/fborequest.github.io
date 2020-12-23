@@ -3,23 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://fborequest.com/</loc>
+    <loc>https://fborequest.github.io/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://fborequest.com/page/</loc>
+    <loc>https://fborequest.github.io/page/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://fborequest.com/categories/</loc>
+    <loc>https://fborequest.github.io/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://fborequest.com/tags/</loc>
+    <loc>https://fborequest.github.io/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
