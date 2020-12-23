@@ -1,5 +1,5 @@
 title = "FBO Request"
-baseURL = "https://fborequest.com"
+baseURL = "https://fborequest.github.io"
 languageCode = "en-us"
 theme = ["ananke", "matomo"]
 publishdir = "docs"
