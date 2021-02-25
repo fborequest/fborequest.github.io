@@ -58,7 +58,7 @@ host = "stats.fborequest.com"
 [[params.feature]]
   icon = "fas fa-bolt"
   header = "Streamline"
-  text = "Do more with less! Enable your FBO to fit the changing needs of the industry."
+  text = "Do more with less; enable your FBO to fit the changing needs of the industry."
 
 [[params.header.menu]]
   url = "/"
