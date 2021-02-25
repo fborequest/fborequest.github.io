@@ -43,22 +43,22 @@ host = "stats.fborequest.com"
 [[params.feature]]
   icon = "fas fa-link"
   header = "Connect"
-  text = "Your customers and employees for a seamless service."
+  text = "Connect customers and employees for a seamless, personalized service."
 
 [[params.feature]]
   icon = "fa fa-users"
   header = "Manage"
-  text = "Your employees and assign tasks as the day progresses."
+  text = "Manage and track your employees workload using data driven analytics."
 
 [[params.feature]]
   icon = "fa fa-tv"
   header = "Display"
-  text = "Requests with a beautiful display."
+  text = "At a glance status for your FBO with our Arrival/Departure Display."
 
 [[params.feature]]
   icon = "fas fa-bolt"
   header = "Streamline"
-  text = "Your FBO to have it fit the changing needs of the industry."
+  text = "Do more with less! Enable your FBO to fit the changing needs of the industry."
 
 [[params.header.menu]]
   url = "/"

@@ -1,7 +1,7 @@
 <article class="cf pa3 tc">
-  <section class="w-100 w-50-ns flex flex-wrap center">
+  <section class="w-100 w-60-ns flex flex-wrap center">
     {{ range .Site.Params.feature }}
-    <div class="w-50-ns w-100 tl pr4">
+    <div class="w-50-ns w-100 tl pr4 mb4">
       <h1 class="f4 lh-title dark-gray">
         {{ $icon := printf "<i style=\"color: #1472a6\" class=\"%s\"></i>" .icon | safeHTML }}
         {{ .header }}
