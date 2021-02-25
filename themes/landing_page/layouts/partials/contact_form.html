@@ -1,0 +1,16 @@
+<article class="cf pa3 center mw8 tc">
+  <h1 class="f3 lh-title dark-gray">Get In Touch</h1>
+  <form id="contact" action="{{ .Site.Params.Formspree_url }}" method="POST">
+    <fieldset id="sign_up" class="ba b--transparent ph0 mh0">
+      <div class="mt3">
+        <label class="f6 b db mb2" for="_replyto">Email</label>
+        <input class="pa2 input-reset ba bg-transparent w-100 measure" type="email" name="_replyto"  id="email-address" />
+      </div>
+      <div class="mt3">
+        <label class="f6 b db mb2" for="message">Message</label>
+        <textarea name="message" style="height: 10rem" class="db center border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2"></textarea>
+      </div>
+    </fieldset>
+    <div class="mt3"><input class="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6" type="submit" value="Contact Us!"></div>
+  </form>
+</article>

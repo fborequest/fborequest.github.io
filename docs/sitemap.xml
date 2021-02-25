@@ -4,7 +4,30 @@
   
   <url>
     <loc>https://fborequest.github.io/</loc>
-    <priority>0</priority>
+    <lastmod>2020-12-30T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fborequest.github.io/news/mobile_app_beta/</loc>
+    <lastmod>2020-12-30T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fborequest.github.io/news/</loc>
+    <lastmod>2020-12-30T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fborequest.github.io/news/limited_beta/</loc>
+    <lastmod>2020-11-20T23:11:13+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>

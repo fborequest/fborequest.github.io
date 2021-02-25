@@ -1,7 +1,8 @@
 title = "FBO Request"
 baseURL = "https://fborequest.github.io"
 languageCode = "en-us"
-theme = ["ananke", "matomo"]
+#theme = ["ananke", "matomo"]
+theme = ["landing_page", "matomo"]
 publishdir = "docs"
 
 DefaultContentLanguage = "en"
@@ -16,25 +17,58 @@ enableRobotsTXT = true
   filename = "sitemap.xml"
 
 [params]
-  favicon = ""
-  site_logo = ""
-  description = "The last theme you'll ever need. Maybe."
+  # Used in the footer
+  copyright_name = "FBO Request LLC"
+
+  # TODO Enumerate all social icons
   facebook = "https://www.facebook.com/fborequest"
-  twitter = ""
   instagram = "https://www.instagram.com/fborequest/"
-  youtube = ""
-  github = ""
-  gitlab = ""
-  linkedin = ""
-  mastodon = ""
-  slack = ""
-  stackoverflow = ""
-  rss = ""
-  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-black"
-  featured_image = "/images/splash.jpg"
-  recent_posts_number = 2
+  formspree_url = "https://formspree.io/f/mnqooper"
 
 [params.matomo]
 url = "https://stats.fborequest.com"
 id = 2
+host = "stats.fborequest.com"
+
+[[params.feature]]
+  icon = "far fa-clock"
+  header = "Real time requests"
+  text = "Receive aircraft service requests in real time through the web or phone."
+
+[[params.feature]]
+  icon = "fas fa-bell"
+  header = "Communication"
+  text = "Instantly communicate the progress of requests to your customers."
+
+[[params.feature]]
+  icon = "fas fa-link"
+  header = "Connect"
+  text = "Your customers and employees for a seamless service."
+
+[[params.feature]]
+  icon = "fa fa-users"
+  header = "Manage"
+  text = "Your employees and assign tasks as the day progresses."
+
+[[params.feature]]
+  icon = "fa fa-tv"
+  header = "Display"
+  text = "Requests with a beautiful display."
+
+[[params.feature]]
+  icon = "fas fa-bolt"
+  header = "Streamline"
+  text = "Your FBO to have it fit the changing needs of the industry."
+
+[[params.header.menu]]
+  url = "/"
+  title = "Home"
+
+[[params.header.menu]]
+  url = "/news"
+  title = "News"
+
+[[params.header.menu]]
+  url = "/#contact"
+  title = "Contact"
+

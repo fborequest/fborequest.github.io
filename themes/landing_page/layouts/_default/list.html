@@ -1,0 +1,32 @@
+{{ define "main" }}
+<section class="pt6 ph3 flex flex-column mw6 center">
+  {{ $posts := .Pages.ByPublishDate.Reverse }}
+  {{ $len :=  len $posts }}
+  {{ range $index, $element := $posts  }}
+  <div class="w-100 mb4">
+    <h3>
+      {{ if .Truncated }}
+      <a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{ else }}
+      {{ .Title }}
+      {{ end }}
+    </h3>
+
+    {{ partial "metadata.html" . }}
+
+    {{ if .Truncated }}
+    <p>{{ .Summary }}</p>
+    {{ else }}
+    <p>{{ .Content }}</p>
+    {{ end }}
+
+    {{ if .Truncated }}
+    <a href="{{ .RelPermalink }}">Read More</a>
+    {{ end }}
+  </div>
+  {{ if ne (add $index 1) $len }}
+  <hr class="near-white w-75" />
+  {{ end }}
+  {{ end }}
+</section>
+{{ end }}

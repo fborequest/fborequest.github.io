@@ -1,0 +1,17 @@
+<article class="cf pa3 tc">
+  <section class="w-100 w-50-ns flex flex-wrap center">
+    {{ range .Site.Params.feature }}
+    <div class="w-50-ns w-100 tl pr4">
+      <h1 class="f4 lh-title dark-gray">
+        {{ $icon := printf "<i style=\"color: #1472a6\" class=\"%s\"></i>" .icon | safeHTML }}
+        {{ .header }}
+      </h1>
+      <p class="f6 lh-copy measure">
+      <section class='flex flex-row items-center'>
+      <span class='f1 mr3'>{{ $icon }}</span> <span>{{ .text }}</span>
+      <section>
+      </p>
+    </div>
+    {{ end }}
+  </section>
+</article>

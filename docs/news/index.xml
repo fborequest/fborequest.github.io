@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on FBO Request</title>
+    <link>https://fborequest.github.io/news/</link>
+    <description>Recent content in News on FBO Request</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Dec 2020 23:11:13 +0000</lastBuildDate><atom:link href="https://fborequest.github.io/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mobile App Beta</title>
+      <link>https://fborequest.github.io/news/mobile_app_beta/</link>
+      <pubDate>Wed, 30 Dec 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://fborequest.github.io/news/mobile_app_beta/</guid>
+      <description>Our first mobile app beta has been released!
+We are currently in a limited closed beta.
+If you&amp;rsquo;re interested in trying it out please contact us.</description>
+    </item>
+    
+    <item>
+      <title>Limited Beta</title>
+      <link>https://fborequest.github.io/news/limited_beta/</link>
+      <pubDate>Fri, 20 Nov 2020 23:11:13 +0000</pubDate>
+      
+      <guid>https://fborequest.github.io/news/limited_beta/</guid>
+      <description>We are happy to announce FBO Request is in limited beta in one location!</description>
+    </item>
+    
+  </channel>
+</rss>
