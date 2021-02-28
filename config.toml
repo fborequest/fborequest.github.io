@@ -20,6 +20,9 @@ enableRobotsTXT = true
   # Used in the footer
   copyright_name = "FBO Request LLC"
 
+  # Used on main page under title
+  tagline = "FBOs. Pilots. Connected."
+
   # TODO Enumerate all social icons
   facebook = "https://www.facebook.com/fborequest"
   instagram = "https://www.instagram.com/fborequest/"
