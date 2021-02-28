@@ -36,7 +36,7 @@ host = "stats.fborequest.com"
 [[params.feature]]
   icon = "far fa-clock"
   header = "Real time requests"
-  text = "Receive aircraft service requests in real time through the web or phone."
+  text = "Receive aircraft service requests instantly through the web or phone."
 
 [[params.feature]]
   icon = "fas fa-bell"
