@@ -68,10 +68,6 @@ host = "stats.fborequest.com"
   title = "Home"
 
 [[params.header.menu]]
-  url = "/news"
-  title = "News"
-
-[[params.header.menu]]
   url = "/#contact"
   title = "Contact"
 
